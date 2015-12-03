@@ -1,2 +1,2 @@
-# graphs
+# Graphs in C++
 
