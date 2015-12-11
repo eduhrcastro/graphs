@@ -79,5 +79,5 @@ my_graph->addEdge(v2,v1,DISTANCE);
  * [eduhrcastro.github.io](http://eduhrcastro.github.io) - <eduhcastro22@gmail.com>
 
 #License
-    Copyright 2015 Mike Penz
+    Copyright 2015 Eduardo Castro
 
