@@ -43,7 +43,7 @@ int main()
 
 ```c++
 for(int i=0;i<n;i++)
-  g->addVertex(new Vertex<Integer>(new Integer(i+1)));
+  my_graph->addVertex(new Vertex<Integer>(new Integer(i+1)));
 ```
 
 ##Add Edge item
@@ -51,7 +51,13 @@ for(int i=0;i<n;i++)
 ```c++
 Integer *i = new Integer(first_int);
 Integer *j = new Integer(second_int);
-Vertex<Integer> *v1 = g->getVertex(i);
-Vertex<Integer> *v2 = g->getVertex(j);
-g->addEdge(v1,v2,distance);
+Vertex<Integer> *v1 = my_graph->getVertex(i);
+Vertex<Integer> *v2 = my_graph->getVertex(j);
+my_graph->addEdge(v1,v2,distance);
+```
+
+##Print Graph
+
+```c++
+my_graph->print();
 ```
