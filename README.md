@@ -73,3 +73,11 @@ my_graph->print();
 my_graph->addEdge(v1,v2,DISTANCE);
 my_graph->addEdge(v2,v1,DISTANCE);
 ```
+
+#Developed By
+* Eduardo Castro 
+ * [eduhrcastro.github.io](http://eduhrcastro.github.io) - <eduhcastro22@gmail.com>
+
+#License
+    Copyright 2015 Mike Penz
+
