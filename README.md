@@ -53,5 +53,5 @@ Integer *i = new Integer(first_int);
 Integer *j = new Integer(second_int);
 Vertex<Integer> *v1 = g->getVertex(i);
 Vertex<Integer> *v2 = g->getVertex(j);
-g->addEdge(v1,v2,t);
+g->addEdge(v1,v2,distance);
 ```
