@@ -34,7 +34,7 @@ int main()
   //Graph Instance
   Graph<Integer> my_graph = new Graph<Integer>();
   
-  sytem("pause");
+  system("pause");
   return 0;
 }
 ```
