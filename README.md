@@ -71,4 +71,5 @@ my_graph->print();
 
 //When adding an edge
 my_graph->addEdge(v1,v2,DISTANCE);
+my_graph->addEdge(v2,v1,DISTANCE);
 ```
