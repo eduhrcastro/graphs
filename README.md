@@ -61,3 +61,14 @@ my_graph->addEdge(v1,v2,distance);
 ```c++
 my_graph->print();
 ```
+
+#FAQ
+###How can i create a non-directed graph
+
+```c++
+//Create a constant
+#define DISTANCE = 0;
+
+//When adding an edge
+my_graph->addEdge(v1,v2,DISTANCE);
+```
