@@ -24,3 +24,34 @@ Obs: The graph.h you have to stay in the same file directory that will use it
 ```
 
 Great. Your graphs library is now ready to use.
+
+#Additional Setup
+##Creating an Graph instance
+
+```c++
+int main()
+{
+  //Graph Instance
+  Graph<Integer> my_graph = new Graph<Integer>();
+  
+  sytem("pause");
+  return 0;
+}
+```
+
+##Add Vertex item
+
+```c++
+for(int i=0;i<n;i++)
+  g->addVertex(new Vertex<Integer>(new Integer(i+1)));
+```
+
+##Add Edge item
+
+```c++
+Integer *i = new Integer(first_int);
+Integer *j = new Integer(second_int);
+Vertex<Integer> *v1 = g->getVertex(i);
+Vertex<Integer> *v2 = g->getVertex(j);
+g->addEdge(v1,v2,t);
+```
