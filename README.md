@@ -76,7 +76,7 @@ my_graph->addEdge(v2,v1,DISTANCE);
 
 #Developed By
 * Eduardo Castro 
- * [eduhrcastro.github.io](http://eduhrcastro.github.io) - <eduhcastro22@gmail.com>
+ * [eduhrcastro.github.io](http://eduhrcastro.github.io) - <eduardo@nucleus.eti.br>
 
 #License
     Copyright 2015 Eduardo Castro
